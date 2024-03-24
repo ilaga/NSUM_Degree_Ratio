@@ -6,9 +6,9 @@ Set the working directory to the top-level of the folder where all R files are c
 ## Organization
 - Supplementary Material:
 	- Data:
-		- (a) (Need to add, see Data Availability and Instructions below) twomwth2.csv: ARD from the McCarty dataset
-		- (b) (Need to add, see Data Availability and Instructions below) rwanda-varnames.csv: Rwanda meal study ARD subpopulation question IDs, known population sizes, and descriptions
-		- (c) (Need to add, see Data Availability and Instructions below) RWIQ6AFL.SAS7BDAT: Survey responses from Rwanda meal study
+		- (a) (See Data Availability and Instructions below) twomwth2.csv: ARD from the McCarty dataset
+		- (b) (See Data Availability and Instructions below) rwanda-varnames.csv: Rwanda meal study ARD subpopulation question IDs, known population sizes, and descriptions
+		- (c) (See Data Availability and Instructions below) RWIQ6AFL.SAS7BDAT: Survey responses from Rwanda meal study
 	- Figures:
 		Location to save all figures presented in the manuscript
 	- Latent_surface_code:
