@@ -8,15 +8,9 @@ Set the working directory to the top-level of the folder where all R files are c
 	- Data:
 		- (a) (See Data Availability and Instructions below) twomwth2.csv: ARD from the McCarty dataset
 		- (b) (See Data Availability and Instructions below) rwanda-varnames.csv: Rwanda meal study ARD subpopulation question IDs, known population sizes, and descriptions
-		- (c) (See Data Availability and Instructions below) RWIQ6AFL.SAS7BDAT: Survey responses from Rwanda meal study
+		- (c) (See Data Availability and Instructions below) RWIQ6AFL.SAS7BDAT: Survey responses from Rwanda study
 	- Figures:
 		Location to save all figures presented in the manuscript
-	- Latent_surface_code:
-		Code provided and adapted from Breza et al. (2020), "Using aggregated relational data to feasibly identify network structure without network data"
-		- (a) main.R: Main function to take input and return results from Latent Surface Models
-		- (b) latent_surface_code_MH.R: Updated Metropolis-Hastings adaptation of the original Breza et al. (2020) paper that performs the MCMC for the Latent Surface Model
-	- Results:
-		Location to save all MCMC results
 
 ## Software
 All analysis was performed in R version 4.2.3. Packages used for analysis include (and versions in parentheses):
@@ -36,7 +30,7 @@ Details: Process the Rwanda Meal survey to be usable by network scale-up models
 	1. qvsq_meal.RDS: Aggregated relational data responses for the meal question form
 	2. qvsq_standard.RDS: Aggregated relational data responses for the standard question form (not used in this paper)
 	
-### Step 2. Fit Latent Surface Models
+### Step 2. Implement the Degree Ratio Adjustment
 Details: Implement Algorithm 1 and present results for the Rwanda, McCarty, and simulated binomial and stochastic block model data.
 - (a) Slope_Binomial.R
 	Implements algorithm 1 with the simulated binomial model data and outputs results and figures
